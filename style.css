@@ -1,0 +1,32 @@
+:root { --mavi: #6bc1f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+#img1 { background: url('img/img1.jpg') center/cover }
+#img2 { background: url('img/img2.jpg') center/cover }
+
+.txt-mavi { color: var(--mavi) }
+.txt-gray { color: #6b6b6b;}
+.bg-grey { background-color: #f1f1f1}
+.bg-mavi { background-color: var(--mavi) }
+.bg-nav { background-color: #ffffffcc }
+.vh-50 { height: 50vh; }
+.hover:hover { opacity : .5 }
+.hover:hover h5 { display : block!important }
+.ft-4em { font: 4em Roboto; }
+.mw-750 { max-width: 750px;}
+textarea { 
+    resize: none;
+    height: 20vh!important; 
+}
+footer { background-color: #072035;}
+
+.h70 { height: 70px; }
+.p50 { padding: 0 15%;}
+.margintop50 {margin: 50px 0 0 0;}
+.ttop { top: 58vh; }
+
+@media only screen and (min-width: 768px) {
+    .ttop { top: 33vh; }
+    .left { left: 25%; }
+    .right { right: 25%; }
+    .imgtop {top: 15vh; }
+}
